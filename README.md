@@ -5,12 +5,12 @@
 BiMap<Integer,String> numbers = new BiMap<>();
 <br/>
 try {
-    numbers.put(3,"three");<br/>
-    numbers.put(2,"too");<br/>
-    numbers.put(1,"one");<br/>
-    numbers.put(2,"two");// replace<br/>
+    &#9numbers.put(3,"three");<br/>
+    &#9numbers.put(2,"too");<br/>
+    &#9numbers.put(1,"one");<br/>
+    &#9numbers.put(2,"two");// replace<br/>
 } catch (NotUniqueKeyValueException e) {<br/>
-    e.printStackTrace();<br/>
+    &#9e.printStackTrace();<br/>
 }<br/>
 <br/>
 List<Integer> keyListSorted = numbers.keyListSorted();<br/>
