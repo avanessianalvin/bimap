@@ -1,0 +1,20 @@
+package bimap;
+
+public class NotUniqueKeyValueException extends Exception{
+    public NotUniqueKeyValueException(String message){
+        super(message);
+    }
+
+    public NotUniqueKeyValueException(){
+        super("Value provided in Key value is not unique!");
+    }
+
+    public NotUniqueKeyValueException(Object value){
+        super("Value : '" + value.toString() + "' provided in Key value is not unique!");
+    }
+
+    public NotUniqueKeyValueException(Object key, Object value){
+        super("Value provided in Key value <" + key.toString() + "," + value.toString() + "> is not unique!");
+    }
+
+}
