@@ -1,9 +1,9 @@
 # bimap
  very Simple class provides two way map
  
- 
+ <p>
 BiMap<Integer,String> numbers = new BiMap<>();
-
+</p>
 try {
     numbers.put(3,"three");
     numbers.put(2,"too");
