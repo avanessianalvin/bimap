@@ -5,12 +5,12 @@ a very simple java class provides two-way map
 BiMap<Integer,String> numbers = new BiMap<>();
 <br/>
 try {
-    &#9;numbers.put(3,"three");<br/>
-    &#9;numbers.put(2,"too");<br/>
-    &#9;numbers.put(1,"one");<br/>
-    &#9;numbers.put(2,"two");// replace<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;numbers.put(3,"three");<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;numbers.put(2,"too");<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;numbers.put(1,"one");<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;numbers.put(2,"two");// replace<br/>
 } catch (NotUniqueKeyValueException e) {<br/>
-    &#9;e.printStackTrace();<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;e.printStackTrace();<br/>
 }<br/>
 <br/>
 List<Integer> keyListSorted = numbers.keyListSorted();<br/>
